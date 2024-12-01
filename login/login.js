@@ -10,7 +10,7 @@ let localinfo = localStorage.getItem(`'${valname}'`)
 
 home.addEventListener('click', function (event) {
     event.preventDefault()
-    location.href = 'http://127.0.0.1:5500/home/home.html'
+    location.href = 'http://127.0.0.1:5500/home/index.html'
 })
 signup.addEventListener('click', function (event) {
     event.preventDefault()
@@ -32,7 +32,7 @@ function login() {
                 icon: "success",
             }).then(function (res) {
                 if (res === true) {
-                    location.href = 'http://127.0.0.1:5500/home/home.html'
+                    location.href = 'http://127.0.0.1:5500/home/index.html'
                 }
             })
         } 
