@@ -5,13 +5,13 @@ signup.addEventListener("click" ,function (event) {
     event.preventDefault()
     let activit=event.target
     
-    location.href='http://127.0.0.1:5500/sign%20up/sign-up.html'
+    location.href='https://Rezaheydari315.github.io/js_website/sign up/sign-up.html'
 })
 
 
 basket.addEventListener('click' ,function(event) {
     event.preventDefault()
-    location.href='http://127.0.0.1:5500/basket/basket.html'
+    location.href='https://Rezaheydari315.github.io/js_website/basket/basket.html'
 })
  
 function addpro(event) {

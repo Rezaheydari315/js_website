@@ -10,11 +10,11 @@ let localinfo = localStorage.getItem(`'${valname}'`)
 
 home.addEventListener('click', function (event) {
     event.preventDefault()
-    location.href = 'http://127.0.0.1:5500/index.html'
+     location.href='https://Rezaheydari315.github.io/js_website/index.html'
 })
 signup.addEventListener('click', function (event) {
     event.preventDefault()
-    location.href = 'http://127.0.0.1:5500/sign%20up/sign-up.html'
+    location.href='https://Rezaheydari315.github.io/js_website/sign up/sign-up.html'
 })
 
 function login() {
@@ -32,7 +32,7 @@ function login() {
                 icon: "success",
             }).then(function (res) {
                 if (res === true) {
-                    location.href = 'http://127.0.0.1:5500/index.html'
+                    location.href='https://Rezaheydari315.github.io/js_website/index.html'
                 }
             })
         } 

@@ -1,7 +1,7 @@
 let home=document.querySelector("#click_home")
 home.addEventListener('click' ,function (event) {
     event.preventDefault()
-   location.href='http://127.0.0.1:5500/index.html'
+   location.href='https://Rezaheydari315.github.io/js_website/index.html'
 })
  
 let name=document.querySelector('#sign_up_name') 
@@ -33,7 +33,7 @@ let login=document.querySelector("#sign_up_footer_link")
                 name.value=''
                 emailandnumber.value=''
                 password.value=''
-                location.href='http://127.0.0.1:5500/login/login.html'
+                location.href='https://Rezaheydari315.github.io/js_website/login/login.html'
             }
            
           })
@@ -46,5 +46,5 @@ signup()
 
 login.addEventListener('click' ,function (event) {
    event.preventDefault()
-  location.href='http://127.0.0.1:5500/login/login.html'
+   location.href='https://Rezaheydari315.github.io/js_website/login/login.html'
 })

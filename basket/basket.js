@@ -4,12 +4,12 @@ let priceAAll = document.querySelector("#price_All")
 
 home.addEventListener('click', function (event) {
     event.preventDefault()
-    location.href = 'http://127.0.0.1:5500/index.html'
+    location.href='https://Rezaheydari315.github.io/js_website/index.html'
 })
 let signup = document.querySelector("#click_sign")
 signup.addEventListener('click', function (event) {
     event.preventDefault()
-    location.href = 'http://127.0.0.1:5500/sign%20up/sign-up.html'
+    location.href='https://Rezaheydari315.github.io/js_website/sign up/sign-up.html'
 })
 
 
