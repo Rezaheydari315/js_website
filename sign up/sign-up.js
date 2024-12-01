@@ -1,7 +1,7 @@
 let home=document.querySelector("#click_home")
 home.addEventListener('click' ,function (event) {
     event.preventDefault()
-   location.href='http://127.0.0.1:5500/home/index.html'
+   location.href='http://127.0.0.1:5500/index.html'
 })
  
 let name=document.querySelector('#sign_up_name') 
