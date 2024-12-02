@@ -170,6 +170,8 @@ padding-left: 22px;
     }
   }
 
+  
+
 
 
 /* top_header */
@@ -273,7 +275,15 @@ padding-left: 22px;
 .icon_heart_header {
     margin-right: 10px;
 }
-
+.icon_cart_plus{
+    color: #000000;
+    text-decoration: underline;
+}
+.parent_cart_plus{
+    background-color: gray;
+    padding: 2px 4px;
+    border-radius: 4px
+}
 
 
 
